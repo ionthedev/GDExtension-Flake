@@ -1,0 +1,16 @@
+# Jetbrains
+.idea/
+
+# Visual Studio
+.vs/
+out/
+
+# CMake
+cmake-build-*/
+
+# Godot
+.godot/
+
+# Compiled Dynamic libraries
+*.so
+*.dll
