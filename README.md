@@ -28,7 +28,7 @@ open terminal in the repo's directory.
 OPTIONAL: Change the ProjectName in the CMakeLists.txt to whatever you please, this will be used for your libraries name.
 
 1. run `nix develop`
-2. cmake -G Ninja -DCMAKE_C_COMPILER=$(which gcc) -DCMAKE_CXX_COMPILER=$(which g++) ..
+2. then run  `cmake -G Ninja -DCMAKE_C_COMPILER=$(which gcc) -DCMAKE_CXX_COMPILER=$(which g++) ..`
 3. when that's all done, run `ninja` and it should start compiling the provided GDExtension and GodotCPP for godot 4.3
 4. Source code for the extension will live in the "game" folder.
 5. Star this repo template 😈
